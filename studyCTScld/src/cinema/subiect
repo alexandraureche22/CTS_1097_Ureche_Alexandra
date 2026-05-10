@@ -1,0 +1,16 @@
+4p. Cinematograful dorește să gestioneze diferite tipuri de proiecții:
+Film2D, Film3D și FilmIMAX. Soluția trebuie să permită generarea facilă de instanțe din
+ această familie de clase care vor implementa interfața Proiectie.
+ Fiecare proiecție va avea: un titlu, o durată în minute și prețul biletului.
+
+ 1p. Să se testeze soluția prin crearea a cel puțin patru proiecții din cel
+  puțin două tipuri diferite.
+
+ 3p. Cinematograful emite bilete personalizate pentru fiecare spectator.
+  Biletul conține: numele spectatorului, filmul ales, sala, randul, scaunul, dacă
+  include popcorn și dacă include băutură. Doar numele spectatorului și filmul ales sunt obligatorii.
+ Restul sunt opționale. Odată emis, biletul nu mai poate fi modificat (se emite unul nou dacă e
+  nevoie). Clasa aferentă biletului va implementa interfața IBilet.
+
+  1p. Testați implementarea prin crearea a minim 3 bilete cu diverse combinații.
+  Demonstrați imutabilitatea biletului.

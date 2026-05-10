@@ -1,0 +1,46 @@
+4p. Sistem de Comenzi pentru Pizzerie
+Se dorește dezvoltarea unei aplicații pentru o pizzerie care să permită gestionarea comenzilor online.
+Sistemul trebuie să ofere o evidență clară a comenzilor plasate.
+Sistemul trebuie să permită crearea diferitelor tipuri de pizza: Pizza Margherita, Pizza Quattro Formaggi,
+Pizza Pepperoni. Acestea vor implementa interfața Pizza.
+Fiecare tip de pizza va avea:
+
+un nume
+o dimensiune (în cm - diametru)
+un preț
+o metodă de preparare specifică pizzei în care sunt afișați pașii parcurși pentru preparare
+
+Crearea pizzelor trebuie separată de logica principală a aplicației.
+1p. Test: Să se testeze soluția prin crearea a cel puțin patru obiecte de tipul Pizza și
+utilizarea acestora.
+
+------
+3p. Sistem Centralizat de Gestionare Comenzi
+Pizzeria are un singur cuptor principal. Astfel sistemul va avea o componentă centrală care gestionează
+comanda clienților. Această componentă de gestionare trebuie să fie unic accesibilă în toată aplicația și
+să nu permită instanțierea multiplă.
+În cadrul componentei nou adăugate se permite:
+
+Adăugarea de pizza pentru o comandă
+Afișarea tuturor pizzelor din ultima comandă
+Calcularea prețului total al comenzii
+
+Trebuie folosită interfața ComandaManager, iar pentru pizza interfața Pizza.
+1p. Test: Simulați plasarea a cel puțin două comenzi prin care să arătați că nu pot fi realizate
+două comenzi concomitent. Însă în cadrul unei comenzi pot fi adăugate pizza similare.
+
+-----
+3p. Sistem de Pizza Personalizate pentru Clienți Fideli
+Sistemul va avea o componentă inteligentă de păstrare a tipurilor de pizza personalizate pentru
+clienți fideli. Această componentă permite salvarea unor comenzi de pizza ca șabloane (PizzaPresetata) și
+refolosirea lor prin copiere, pentru clienții fideli sau comenzi frecvente, astfel încât să nu se mai
+piardă timpul cu crearea pizzei personalizate cum o dorește clientul.
+De exemplu, un client comandă în fiecare vineri o Pizza Margherita de 40 cm cu extra mozzarella.
+1p. Test: Simulați plasarea a cel puțin patru comenzi prin care să arătați că două dintre ele au fost
+
+copiate.
+
+ void preparare();
+    String getDetalii();
+    double getPret();
+    void adaugaTopping();

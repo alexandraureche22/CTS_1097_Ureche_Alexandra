@@ -1,0 +1,32 @@
+sistemul trebuie să permită crearea diferitelor tipuri de feluri de mâncare: Aperitiv,
+FelPrincipal, Desert. Acestea vor implementa interfața IFelMancare.
+Fiecare fel de mâncare va avea:
+
+un nume
+o descriere
+un preț
+o metodă de preparare specifică în care sunt afișați pașii
+
+Crearea felurilor de mâncare trebuie separată de logica principală a aplicației.
+public interface IFelMancare {
+    void preparare();
+    String getDetalii();
+    double getPret();
+}
+
+4p. EXERCIȚIU 2: Meniuri cu Design Grafic (Prototype)
+Aplicația implementată va asigura generarea meniurilor digitale cu design grafic. Pentru fiecare tip
+de meniu se va genera un design grafic reprezentativ care va apărea pe toate meniurile de tipul
+respectiv (ex.: toate meniurile vegetariene vor avea același design grafic).
+Designul grafic este unul complex, generarea lui durează destul de mult, de aceea implementarea trebuie
+să asigure optimizarea procesului de creare a meniurilor.
+Meniurile vor conține, bineînțeles, și detaliile felurilor de mâncare promovate.
+Implementarea acestei componente de generare a meniurilor va fi realizată prin implementarea
+interfeței IMenu.
+
+public interface IMenu {
+    public void print();
+}
+
+1p. Test: În main() trebuie să se implementeze o secvență de cod relevantă pentru evidențierea design
+pattern-ului implementat (template-uri create o dată, clonare rapidă pentru fiecare fel de mâncare).

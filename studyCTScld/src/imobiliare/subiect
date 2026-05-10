@@ -1,0 +1,28 @@
+4p. Agenția imobiliară gestionează diverse tipuri de proprietăți: Apartament, Casă și Teren.
+ Soluția trebuie să permită generarea facilă de instanțe din această familie de clase care
+ vor implementa interfața Proprietate. Fiecare proprietate va avea: o adresă, o suprafață în mp
+ și un preț.
+
+ public interface Proprietate {
+     String getAdresa();
+     double getSuprafata();
+     double getPret();
+     void afiseazaDetalii();
+ }
+
+ 1p. Să se testeze soluția prin crearea a cel puțin patru obiecte de tip Proprietate din cel
+ puțin două tipuri diferite prin intermediul modulului implementat.
+
+ 3p. Agenția oferă clienților posibilitatea de a-și configura o cerere personalizată de căutare.
+  Cererea poate conține: orașul, tipul proprietății, suprafața minimă, suprafața maximă,
+  prețul minim, prețul maxim, numărul de camere și etajul dorit. Doar orașul este obligatoriu,
+  restul câmpurilor sunt opționale. Odată creată, cererea nu mai poate fi modificată (se va crea o
+  cerere nouă pentru o nouă căutare). Clasa aferentă cererii va implementa interfața ICerereClient.
+
+public interface ICerereClient {
+    String getOras();
+    void afiseazaCerere();
+}
+
+1p. Testați în main implementarea prin crearea a minim 3 cereri de căutare ce conțin diverse
+combinații de criterii. Demonstrați faptul că o cerere odată creată nu mai poate fi modificată.

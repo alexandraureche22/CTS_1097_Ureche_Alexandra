@@ -1,0 +1,27 @@
+1. Spitalul dorește un modul pentru gestionarea fișelor medicale ale pacienților.
+Deoarece procesul de creare a unei fișe noi de la zero este unul complex și solicită accesarea mai
+multor baze de date externe pentru istoricul medical, se dorește ca atunci când un pacient revine,
+să se poată genera o fișă nouă prin multiplicarea uneia existente în sistem. Modulul care se ocupă de
+păstrarea acestor fișe model și de multiplicarea lor trebuie să fie unic la nivelul întregii aplicații
+pentru a nu consuma memorie inutilă.
+
+2.O bancă pune la dispoziția clienților un sistem de configurare pentru noile carduri emise.
+Un card poate avea mai multe dotări opționale: asigurare de accident, limită de credit extinsă,
+design personalizat, acces în lounge-uri VIP sau card virtual atașat. Dacă un client nu alege o
+anumită opțiune, aceasta trebuie să fie setată automat pe o valoare neutră (false sau 0). În plus,
+banca dorește ca procesul de configurare să fie centralizat printr-un singur punct de control în
+aplicație, astfel încât toate cererile de carduri să treacă prin aceeași instanță de configurare.
+
+3.Un brand sportiv produce două linii mari de produse: haine (Tricouri, Pantaloni) și încălțăminte
+(Adidași, Ghete). Acestea sunt organizate pe categorii stricte: gama "Performanță" și gama "Timp Liber".
+Să se implementeze modulul care permite realizarea acestor obiecte, asigurându-se că produsele sunt create
+conform categoriei din care fac parte. Pentru fiecare categorie de produse, sistemul trebuie să asigure
+existența unei singure unități de producție (fabrică) responsabilă de generarea obiectelor respective.
+
+4.O companie de automatizări produce diverse dispozitive smart: Becuri, Prize și Senzori.
+Modulul inițial trebuie să permită crearea acestor obiecte pe baza unui identificator de tip (ex: un enum).
+Totuși, instalarea a zeci de dispozitive identice într-o casă mare prin apelarea constructorului de
+fiecare dată este ineficientă. Se dorește o modalitate prin care, odată ce un dispozitiv "model" a fost
+configurat, acesta să poată fi utilizat pentru a genera rapid restul dispozitivelor de același fel prin
+copierea stării sale interne.
+

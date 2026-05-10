@@ -1,0 +1,26 @@
+1.Biblioteca dorește un modul pentru înregistrarea cardurilor de acces ale cititorilor.
+Procesul de creare a unui card este unul complex, deoarece implică verificarea istoricului de
+credit, a adresei și a bazelor de date cu restanțieri. Se dorește ca, odată ce un „Card Model” a
+fost creat, sistemul să permită multiplicarea acestuia pentru noii membri, modificând doar datele
+personale. De asemenea, pentru a controla fluxul de date și a nu suprasolicita sistemul, arhiva care
+stochează aceste modele și se ocupă de multiplicarea lor trebuie să fie accesibilă printr-o singură
+instanță în întreaga aplicație.
+
+2.O companie aeriană implementează un sistem pentru rezervarea biletelor de avion. Un bilet poate avea
+multiple opțiuni extra: bagaj de cală, check-in prioritar, alegerea locului la geam, masă specială sau
+asigurare de călătorie. În cazul în care pasagerul nu selectează o opțiune, aceasta trebuie să fie setată
+automat pe „false” sau „nu”. Sistemul de configurare trebuie să fie unic la nivelul aplicației, astfel
+încât toate rezervările să fie procesate prin același modul centralizat de aprobare.
+
+3.O fabrică produce componente pentru calculatoare împărțite în două familii mari: Unități de Stocare
+(HDD, SSD) și Memorii (RAM DDR4, RAM DDR5). Acestea sunt organizate pe categorii de performanță: gama
+„Office” și gama „Gaming”. Să se implementeze modulul care permite realizarea acestor componente,
+asigurându-se că produsele sunt create conform specificațiilor gamei lor. Pentru fiecare gamă de
+performanță, trebuie să existe o singură unitate de control (fabrică) responsabilă de producție.
+
+4.Un hotel de lux oferă diverse tipuri de camere: Standard, Apartament și VIP.
+Aplicația trebuie să permită crearea acestor obiecte de tip cameră pe baza unei selecții (ex: un enum).
+Deoarece configurarea unei camere VIP cu toate facilitățile (minibar, vedere la mare, jacuzzi)
+consumă mult timp și resurse de sistem, hotelul dorește ca odată ce o cameră „etalon” a fost configurată,
+restul camerelor de același tip să fie generate prin copierea proprietăților acestui etalon.
+

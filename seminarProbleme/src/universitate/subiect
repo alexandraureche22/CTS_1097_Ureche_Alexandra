@@ -1,0 +1,51 @@
+3.5p. Global Module Registry for University:
+Dezvoltați software pentru o platformă universitară care oferă diferite module educaționale (cursuri).
+Fiecare modul este un Singleton și trebuie să fie înregistrat într-un Module Registry global
+(care este și el Singleton).
+Fiecare modul trebuie să aibă
+Un nume unic
+O descriere
+Pentru fiecare modul, aceeași cheie de modul trebuie să returneze întotdeauna același obiect
+Metoda getModuleId() - returnează un ID unic
+Metoda getModuleDescription() - returnează descrierea modulului
+Metoda startModule() - pornește modulul și afișează un mesaj
+
+3p. Test:
+Testați soluția prin înregistrarea a cel puțin 3 module educaționale diferite (ex: Matematică,
+Programare, Fizică) și demonstrați că cererea aceluiași modul de mai multe ori returnează același
+obiect Singleton.
+
+4p. Course Materials Templates:
+În universitate, profesorii trebuie să creeze materiale de curs pornind de la șabloane standard
+(template-uri), cum ar fi materiale pentru laborator, seminar, proiect. Sistemul trebuie să permită
+profesorilor să cloneze rapid șabloane deoarece experiența arată că profesorii petrec prea mult timp
+copiind manual materiale existente.
+Șabloanele includ:
+
+Secțiuni mari de text (obiective, cerințe, evaluare)
+Instrucțiuni implicite
+Metadata (autorul, data, disciplina)
+
+Materialele trebuie să permită modificări după clonare.
+4.5p. Test:
+Testați implementarea și demonstrați că obiectele clonate sunt obiecte distincte, păstrând în același
+timp valorile inițiale din șablon.
+
+4.5p. Centralized University Account Service:
+Sistemul universitar creează conturi pentru diferite tipuri de utilizatori: Profesori, Studenți,
+Asistenți, Administratori. În funcție de tipul de utilizator solicitat, sistemul trebuie să:
+
+Calculeze clasa de cont corectă
+Inițieze un comportament relevant (cum ar fi afișarea rolului și permisiunilor)
+Seteze drepturile de acces specifice fiecărui tip
+
+Fiecare tip de cont are:
+
+Nivel de acces (complet, parțial, restrictiv)
+Permisiuni (modificare note, upload materiale, administrare sistem)
+Responsabilități
+
+Creați soluția folosind cel puțin 4 tipuri de conturi diferite.
+Test:
+Testați soluția prin crearea a cel puțin 4 conturi de tipuri diferite. Demonstrați că factory-ul
+returnează clasa corectă și că fiecare cont execută comportamentul specific.

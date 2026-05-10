@@ -1,0 +1,15 @@
+3p. Un escape room oferă mai multe tipuri de camere tematice: CameraHorror, CameraMister și
+CameraStiintifica. Fiecare cameră are: un nume, un nivel de dificultate (1-10), un timp maxim
+de rezolvare (în minute) și un preț. Crearea camerelor trebuie separată de logica principală a
+aplicației. Toate camerele implementează interfața ICameraEscape.
+
+1p. Testați prin crearea a cel puțin patru camere din cel puțin două tipuri diferite.
+
+4p. La intrarea în escape room, fiecare echipă primește un document de briefing.
+Documentul conține o hartă a camerei care este foarte complexă și durează mult să fie generată.
+Harta este aceeași pentru toate echipele care joacă același tip de cameră. Documentul mai conține
+și detaliile specifice echipei: numele echipei, numărul de participanți și ora de start.
+Implementarea va fi realizată prin interfața IDocumentBriefing.
+
+1p. Testați prin crearea a minim 3 documente de briefing pentru echipe diferite dar pentru
+același tip de cameră. Demonstrați că harta se generează o singură dată.

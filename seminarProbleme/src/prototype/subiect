@@ -1,0 +1,21 @@
+O clinică medicală emite atestate medicale pentru pacienți. Atestatul are un antet oficial cu
+sigiliul clinicii și logo-ul Ministerului Sănătății, care este complex și durează mult să se
+genereze (procesare grafică, watermark securizat).
+Pentru fiecare pacient, clinica trebuie să cloneze atestatul și să completeze: numele pacientului,
+CNP-ul și diagnosticul.
+Implementați soluția folosind Prototype Pattern.
+
+public interface IAtesttat {
+    void print();
+}
+-----------------------------------------------------------------
+O companie organizează evenimente corporate și trebuie să trimită invitații personalizate.
+Compania folosește 3 tipuri de invitații: Standard, Premium, VIP.
+Fiecare tip are un design grafic unic (background personalizat, font special, elemente decorative)
+care durează mult să se genereze. Sistemul trebuie să păstreze template-urile pentru toate tipurile de
+invitații și să poată genera invitații după tipul dorit pentru fiecare invitat.
+Implementați soluția folosind Prototype Pattern.
+
+public interface IInvitatie {
+    void print();
+}

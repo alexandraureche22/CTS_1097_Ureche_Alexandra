@@ -1,0 +1,16 @@
+3p. Platforma gestionează o singură sesiune de examinare la un moment dat.
+Sistemul nu permite crearea mai multor sesiuni simultane. Sesiunea permite: pornirea cu un
+nume de examen, adăugarea de studenți participanți, finalizarea sesiunii și vizualizarea listei de
+studenți. În cadrul unei sesiuni pot fi adăugați studenți cu nume identice (omonimi). Clasa va
+implementa interfața ISesiuneExamen.
+
+1p. Testați prin simularea a cel puțin două sesiuni de examen. Demonstrați că nu pot exista două
+sesiuni concomitent, dar că studenții omonimi sunt acceptați.
+
+4p. Platforma oferă diferite tipuri de cursuri: CursVideo, CursLive și CursText. Fiecare curs are:
+un titlu, un autor, o durată în ore și un preț. Fiecare tip de curs are o metodă specifică de
+livrare. Crearea cursurilor trebuie separată de logica principală. Toate cursurile implementează
+interfața ICurs.
+
+1p. Testați prin crearea a cel puțin patru cursuri din cel puțin două tipuri diferite.
+Apelați metoda de livrare pentru fiecare.

@@ -1,0 +1,18 @@
+3p. Firma de transport deține o singură dispecerată centrală.
+ Sistemul trebuie să nu permită crearea mai multor dispecerate în aplicație.
+ Dispecerata gestionează cursele active: permite adăugarea unei curse noi,
+ finalizarea cursei curente și vizualizarea cursei active. La un moment dat poate fi activă o
+ singură cursă. Implementarea va fi realizată prin interfața IDispecerata. Ținând cont de
+ faptul că aplicația este una multithreading, implementați soluția corespunzătoare.
+
+ 1.5p. Testați implementarea prin crearea a 3 referințe la clasă, din care una într-un thread
+  secundar. Demonstrați că cele 3 variabile referă aceeași dispecerată.
+
+ 3p. Firma emite documente de transport pentru fiecare cursă. Documentele sunt complexe și
+  durează mult să fie generate deoarece conțin o ștampilă digitală specifică tipului de transport
+  (rutier, feroviar, aerian). Ștampila este aceeași pentru toate documentele de același tip.
+  Documentele vor conține și detaliile cursei (destinație, dată, șofer). Implementarea va fi
+   realizată prin interfața IDocument.
+
+   1p. Testați soluția prin crearea a minim 3 documente de transport,
+  demonstrând că generarea ștampilei se face o singură dată per tip

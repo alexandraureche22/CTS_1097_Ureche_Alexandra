@@ -1,0 +1,19 @@
+În spital, doctorii trebuie să creeze rapoarte medicale pornind de la șabloane standard
+(template-uri), cum ar fi rapoarte pentru sânge, cardiologie, neurologie. Sistemul trebuie să
+permită doctorilor să cloneze rapid șabloane deoarece experiența arată că doctorii petrec prea mult
+timp copiind manual rapoarte existente.
+
+Șabloanele includ:
+Secțiuni mari de text
+Recomandări implicite
+Metadata (autorul, data, etc.)
+Rapoartele trebuie să permită modificări după clonare.
+
+
+4.5p. Centralized Hospital Audit Service:
+Sistemul de spital creează conturi de audit pentru diferite tipuri de personal: medici,
+asistente, tehnicieni. În funcție de tipul de personal solicitat, sistemul trebuie să:
+
+Calculeze clasa de cont corectă
+Inițieze un comportament relevant (cum ar fi afișarea rolului și responsabilităților)
+Creați soluția folosind cel puțin 4 tipuri de conturi diferite.

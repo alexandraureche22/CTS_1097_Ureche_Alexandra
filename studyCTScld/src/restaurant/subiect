@@ -1,0 +1,27 @@
+3p. Restaurantul oferă un meniu format din diferite tipuri de preparate:
+ Aperitiv, FelPrincipal și Desert.
+ Fiecare preparat implementează interfața Preparat.
+  Soluția trebuie să permită generarea facilă de instanțe din această familie de clase.
+   Fiecare preparat va avea: un nume, o listă de ingrediente și un preț.
+public interface Preparat {
+    String getNume();
+    double getPret();
+    void afiseazaDetalii();
+}
+
+1p. Să se testeze soluția prin crearea a cel puțin patru preparate din cel puțin două tipuri diferite.
+
+4p. Restaurantul dorește să ofere clienților posibilitatea de a-și configura un meniu personalizat
+ pentru evenimente. Meniul poate conține: numele evenimentului, numărul de persoane,
+ aperitivul ales, felul principal, desertul, băutura, dacă include servire la masă și
+ dacă include decorațiuni. Doar numele evenimentului și numărul de persoane sunt obligatorii.
+  Restul sunt opționale. Odată creat, meniul nu mai poate fi modificat. Clasa aferentă meniului va
+   implementa interfața IMeniuEveniment.
+
+public interface IMeniuEveniment {
+    String getNumeEveniment();
+    int getNrPersoane();
+    void afiseazaMeniu();
+}
+1p. Testați implementarea prin crearea a minim 3 meniuri personalizate cu diverse combinații.
+Demonstrați imutabilitatea.

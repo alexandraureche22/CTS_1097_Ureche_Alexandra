@@ -1,0 +1,21 @@
+4p. Grădina zoologică deține un sistem de monitorizare a animalelor.
+Fiecare animal are un dosar medical complex care conține: numele animalului, specia,
+greutatea, data ultimului control, vaccinuri administrate, alergii cunoscute, dieta specială și
+numele îngrijitorului. Doar numele animalului și specia sunt obligatorii, restul informațiilor
+se completează treptat pe parcursul vizitelor veterinare. Un dosar medical odată finalizat numai
+poate fi modificat (se creează un dosar nou actualizat la fiecare vizită).
+Clasa aferentă dosarului va implementa interfața IDosarMedical.
+
+1p. Testați prin crearea a minim 3
+dosare medicale cu diverse combinații de informații. Demonstrați imutabilitatea.
+
+3p. Grădina zoologică folosește un sistem de alarmă centralizat. În momentul în care un animal
+evadează din cușcă, alarma este activată. Sistemul nu permite existența mai multor alarme
+simultane în aplicație, deoarece toate sectoarele grădinii zoologice
+trebuie să primească aceeași alertă. Alarma permite: activarea cu un mesaj de alertă,
+dezactivarea și verificarea stării curente. Ținând cont de faptul că aplicația este una
+multithreading, implementați soluția corespunzătoare. Clasa va implementa interfața
+ISistemAlarma.
+
+1.5p. Testați prin crearea a 3 referințe, din care una
+într-un thread secundar. Demonstrați că toate referă aceeași alarmă.

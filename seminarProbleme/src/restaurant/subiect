@@ -1,0 +1,18 @@
+B.1. Restaurantul servește mai multe tipuri de supe: supă de legume, supă de ciuperci, supă de vită,
+etc. Să se implementeze modulul care permite realizarea de obiecte din familia supelor. Tipurile
+de supă sunt reținute în cadrul unui enum.
+
+B.2. Atunci când un client face o rezervare poate alege una din următoarele opțiuni: așezare la
+geam, scaune ergonomice, decorarea mesei, muzica ambientala personalizata, gen muzica. În cazul
+în care clientul nu specifică vreun element dintre acestea, este setat pe false. Să se implementeze
+modulul care permite crearea de obiecte de tip rezervare cu aceste opțiuni extra.
+
+B.3. Restaurantul servește mai multe tipuri de supe: supă de legume, supă de ciuperci, supă de vită,
+etc. Si mai multe tipuri de desert: Papanasi, Clatite, CheeseCake, etc Să se implementeze modulul
+care permite realizarea de obiecte din familia Felurilor de mancare impartite pe categorii: Supe si
+Desert.
+
+B.4. Restaurantul dorește să implementeze un modul în cadrul aplicației, astfel încât dacă un client
+a mai fost la restaurant și revine pentru a realiza o rezervare să nu fie necesară reconstruirea unui
+cont respectivului client, deoarece construirea unui nou obiect durează foarte mult si solicita mai
+multe date
