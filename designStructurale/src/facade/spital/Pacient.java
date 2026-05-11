@@ -1,4 +1,4 @@
-package facade;
+package facade.spital;
 
 public class Pacient {
     private int numar;

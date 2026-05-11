@@ -1,4 +1,4 @@
-package facade;
+package facade.spital;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package facade;
+package facade.spital;
 
 import java.util.ArrayList;
 import java.util.List;
