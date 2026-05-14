@@ -1,0 +1,6 @@
+O aplicație pentru o companie de asigurări dorește să implementeze un sistem de aprobare a cererilor
+de despăgubire. Cererile sunt aprobate în funcție de suma solicitată:
+Sub 1000 RON → aprobată de Agent
+Între 1000 și 10000 RON → aprobată de Manager
+Peste 10000 RON → aprobată de Director
+Dacă suma depășește competența unui nivel, cererea este trimisă automat la nivelul următor.

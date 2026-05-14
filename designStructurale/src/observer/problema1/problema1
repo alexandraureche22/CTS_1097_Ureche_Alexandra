@@ -1,0 +1,4 @@
+O aplicație pentru o bancă dorește să implementeze un sistem de notificări pentru clienții fideli.
+Banca trimite notificări ori de câte ori apare o nouă ofertă de economii sau o promoție la credite.
+Unii clienți sunt abonați la notificări, alții nu. Un client se poate dezabona oricând dorește.
+Implementați modulul care permite trimiterea notificărilor către clienții abonați.

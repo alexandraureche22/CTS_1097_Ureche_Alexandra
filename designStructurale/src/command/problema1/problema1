@@ -1,0 +1,5 @@
+O aplicație pentru o companie de livrări dorește să implementeze un sistem prin care
+comenzile de livrare să fie procesate în ordine. Un operator adaugă comenzi de livrare, iar
+șoferii le preiau pe rând. Operatorul poate anula ultima comandă executată sau o poate reface dacă
+s-a anulat din greșeală.
+Implementați modulul corespunzător.

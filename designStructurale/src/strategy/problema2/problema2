@@ -1,0 +1,4 @@
+O aplicație pentru un cinematograf dorește să implementeze un sistem de reduceri la bilete.
+Biletul standard costă 30 RON. Cinematograful oferă 3 tipuri de reduceri: reducere pentru studenți
+(20%), reducere pentru seniori (30%) și reducere pentru copii (50%). Clientul alege tipul de
+reducere în momentul cumpărării biletului.

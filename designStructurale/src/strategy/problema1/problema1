@@ -1,0 +1,4 @@
+O aplicație pentru o companie de taxi dorește să implementeze un sistem de plată.
+Clientul poate plăti cursa în trei moduri: cu cardul bancar, cu numerar sau prin aplicație mobilă.
+Clientul decide modul de plată în momentul în care ajunge la destinație.
+Implementați modulul care permite plata cursei prin oricare din cele trei metode.

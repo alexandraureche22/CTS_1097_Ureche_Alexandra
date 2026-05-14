@@ -1,0 +1,3 @@
+O aplicație pentru o platformă de joburi dorește să notifice candidații când apare un job nou în
+domeniul lor. Candidații se pot abona la notificări pentru un anumit domeniu și se pot dezabona oricând.
+Când apare un job nou, toți candidații abonați la acel domeniu sunt notificați automat.

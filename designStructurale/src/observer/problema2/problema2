@@ -1,0 +1,3 @@
+O aplicație pentru o firmă de curierat dorește să notifice șoferii când apare o nouă comandă de
+livrare în zona lor. Șoferii se pot înregistra pentru a primi notificări și se pot dezînregistra
+oricând. Când apare o comandă nouă, toți șoferii înregistrați sunt notificați automat.

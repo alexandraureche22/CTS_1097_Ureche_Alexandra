@@ -1,0 +1,6 @@
+O aplicație pentru o bancă dorește să gestioneze cererile de împrumut. Cererile sunt aprobate în
+funcție de suma solicitată:
+Sub 5000 RON → aprobată de Consultant
+Între 5000 și 50000 RON → aprobată de Director Sucursală
+Peste 50000 RON → aprobată de Director General
+Dacă suma depășește competența unui nivel, cererea este trimisă automat la nivelul următor.
